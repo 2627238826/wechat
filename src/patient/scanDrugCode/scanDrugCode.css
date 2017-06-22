@@ -1,0 +1,124 @@
+.scan-code-error{
+    text-align: center;
+    margin-top:23%;
+}
+.scan-drug-code-div{
+	position: relative;
+}
+.scan-code-error-img>img{
+	width:10rem;
+}
+.scan-drug-code-content{
+	padding:0 16px;
+}
+.scan-drug-code-div>img{
+	width:100%;
+}
+.scan-code-error-msg{
+	white-space: pre-line;
+}
+.scan-code-error-msg>h3{
+	margin-bottom: 10px;
+	font-weight: 400;
+}
+.scan-code-error-msg>div>h3{
+	font-weight: 400;
+}
+.scan-code-error-msg>div>h3>span{
+	color:#fd8950;
+}
+.scan-drug-code-div>.scan-drug-code-btn{
+	position: absolute;
+	width:40%;
+	left:50%;
+	margin-left:-20%;
+	margin-top:5%;
+	z-index: 3;
+}
+.scan-drug-code-div>.scan-drug-code-btn2{
+	position: relative;
+	width:40%;
+	left:50%;
+	margin-left:-20%;
+	margin-top:5%;
+	z-index: 3;
+}
+.scan-drug-code-div>.scan-drug-code-ew{
+	position: relative;
+	width:46%;
+	left:50%;
+	margin-left:-23%;
+	margin-top:5%;
+	z-index: 3;
+	
+}
+.scan-drug-code-div>h3{
+	font-size: 13px;
+	font-weight: 400;
+	margin-bottom: 4rem;
+	width:100%;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
+.scan-drug-code-continue{
+	background-color: #23bb90;
+	width:90%;
+	margin:0 auto;
+	border-radius: 5px;
+    height: 40px;
+    color:#fff;
+    line-height: 40px;
+    font-size: 17px;
+    letter-spacing: 3px;
+    margin-top:30px;
+}
+.scan-drug-good-list{
+	background-color: #ff9900;
+	min-height: 81px;
+    border-radius: 6px;
+    margin-bottom: 23px;
+    padding-top: 60px;
+}
+.scan-drug-good-list>ul>li{
+	display: block;
+	list-style-type: none;
+}
+
+.scan-drug-good-list-img{
+	width:35%;
+	float: left;
+}
+.scan-drug-good-list-img>img{
+	width: 100px;
+	height: 100px;
+	padding: 8px;
+	border-radius: 12px
+}
+.scan-drug-good-list-content{
+	width:65%;
+	float: left;
+	padding:8px;
+	color:#fff;
+	font-weight: 400;
+		overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.scan-drug-good-list-content>h4{
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.scan-drug-good-list-content>h3{
+	font-weight: 400;
+	word-wrap: break-word;
+	white-space: normal;
+	width: 100%;
+}
+.scan-drug-good-list>ul>li:after{
+	content:' ';
+	display: block;
+	clear: both;
+}

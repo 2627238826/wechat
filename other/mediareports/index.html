@@ -1,0 +1,131 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    a{
+        text-decoration: none;
+    }
+    html,body{
+        max-width: 100%;
+        height: 100%;
+        background-color: #F4F4F4;
+        font-family: "Helvetica Neue",Helvetica,Arial,Tahoma,sans-serif;
+    }
+    .list>li{
+        list-style-type: none;
+    }
+    .content{
+        max-width: 100%;
+        background-color: #fff;
+        margin: 6px;
+        padding: 3px;
+        border:1px solid #cacbcb;
+        box-shadow:  0 1px 2px #ddd;
+        -webkit-box-shadow: 0 1px 2px #ddd;
+    }
+    .img{
+        max-width: 100%;
+        border-radius: 4px;
+    }
+    .title{
+        position: relative;
+    }
+    .title .context{
+        position: absolute;
+        bottom: 0;
+        background-color:rgba(0,0,0,.6);
+        border-radius: 4px;
+    }
+    .context>h3{
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 18px;
+        padding:5px 5px 2px 5px;
+        font-weight: 700;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+    .two{
+        padding-top: 10px;
+    }
+    .msg{
+        overflow: hidden;
+        padding: 10px 0 10px 0;
+        border-top: 1px solid #e5e5e5;
+        display: block;
+        text-decoration: none;
+    }
+    .span{
+        float: right;
+        padding: 1px 1px 1px 1px;
+        border: 1px solid #e5e5e5;
+        font-size: 0;
+    }
+    .span>img{
+        width: 50px;
+        height: 50px;
+    }
+    .msg_title{
+        font-size: 18px;
+        font-weight: 700;
+        padding:5px 0 0 5px;
+        color: #000;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+</style>
+<body>
+    <div class="content">
+        <div class="one">
+            <figure class="title" id="goto">
+                <img class="img" src="img/jiankan.png"/>
+                <figcaption class="context">
+                    <h3 href="http://med.iyiou.com/p/33354/fs/1">慢病管理领域已获得近10亿元融资，玄关健康要从消化科入手加进战局</h3>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="two">
+            <a class="msg" href="http://zhongyi.sina.com/cjdt/cjxw/229270.shtml ">
+                <span class="span">
+                    <img src="img/logo.png"/>
+                </span>
+                <h4 class="msg_title">玄关健康助力慢病管理，让医疗移动起来</h4>
+            </a>
+        </div>
+        <!--<div class="two">-->
+            <!--<a class="msg" href="http://www.vccoo.com/v/5d8a5c">-->
+                <!--<span class="span">-->
+                    <!--<img src="img/two.jpg"/>-->
+                <!--</span>-->
+                <!--<h4 class="msg_title">玄关健康远程会诊促分级诊疗落户县城</h4>-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="two">-->
+            <!--<a class="msg" href="http://med.iyiou.com/p/33354/fs/1">-->
+                <!--<span class="span">-->
+                    <!--<img src="img/eg_tulip.jpg"/>-->
+                <!--</span>-->
+                <!--<h4 class="msg_title">慢病管理领域已获得近10亿元融资，玄关健康要从消化科入手加进战局</h4>-->
+            <!--</a>-->
+        <!--</div>-->
+    </div>
+</body>
+<script>
+    window.onload=function(){
+        var goto=document.getElementById('goto');
+        goto.onclick=function(){
+            window.location.href='http://med.iyiou.com/p/33354/fs/1';
+        }
+    }
+</script>
+</html>

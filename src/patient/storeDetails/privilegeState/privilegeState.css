@@ -1,0 +1,60 @@
+.store_priFavorable{
+    background: url(../img/favorable.png) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+}
+.store_priFavorableStop{
+    background: url(../img/favorableStop.png) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+}
+.store_textNowrap{
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+}
+.store_wordwrap{
+    word-wrap: break-word;
+    width: 100%;
+}
+.store_priCellB{
+    background-color: #FFFFFF;
+}
+.store_mt0{
+    margin-top: 0px;
+}
+.store_mt5{
+    margin-top: 5px;
+}
+.store_mt10{
+    margin-top: 10px;
+}
+.store_mr10{
+    margin-right: 10px;
+}
+.store_ml5{
+    margin-left: 5px;
+}
+.store_priFont16{
+    font-size: 16px;
+}
+.store_priFont14{
+    font-size: 14px;
+}
+.store_priFont12{
+    font-size: 12px;
+}
+.store_priColorGr{
+    color: #AAAAAA;
+}
+.store_priColorB{
+    color: #333333;
+}
+.store_priColorG{
+    color: #36BFAD;
+}
+.store_priBt:before{
+    border-top: 1px solid #FFFFFF !important;
+}

@@ -1,0 +1,35 @@
+.takeOrderSuccess {}
+
+.takeOrderSuccess .stepbox {
+    line-height: 2.2rem;
+    font-size: 0.7rem;
+    color: #aaa;
+}
+
+.takeOrderSuccess .stepbox .step {
+    position: relative;
+    z-index: 0;
+}
+
+.takeOrderSuccess .stepbox .step:not(:last-child):after {
+    z-index: 1;
+    position: absolute;
+    right: -0.5rem;
+    display: inline-block;
+    content: ' ';
+    width: 1rem;
+    height: 2.2rem;
+    background-image: url('img/arrow_right.png');
+    background-size: 1rem 2.2rem;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+
+.takeOrderSuccess .stepbox .step.curStep {
+    color: #333;
+}
+
+.weui_actionsheet {
+    overflow-y: auto;
+    max-height: 100%;
+}

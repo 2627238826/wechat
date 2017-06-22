@@ -1,0 +1,100 @@
+.doctor_nbr_label {
+    background-color: #fff;
+    border-radius: 0.15rem;
+    font-size: 0.5rem;
+    padding: .05rem;
+    margin-left: 0.3rem;
+}
+
+.service_process_box {
+    position: relative;
+    overflow: hidden;
+    margin:0 1rem;
+}
+
+.service_process_box 
+.service_process_box_bg_line {
+    position: absolute;
+    top: 50%;
+    width: 75%;
+    height: .1rem;
+    margin: -.05rem 10% 0 10%;
+    background-color: #43ce7b;
+    z-index: 0;
+}
+
+.service_process_box 
+.service_process_item{
+	position: relative;
+	width: 24%;
+	float: left;
+	text-align: center;
+	z-index: 1;
+    margin-bottom: 0.2rem;
+}
+
+.service_process_box 
+.service_process_item 
+.service_process_step{
+	display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    vertical-align: middle;
+}
+
+.service_process_box 
+.service_process_item 
+.service_process_step.step1{
+	background: url(img/order.png) no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+
+.service_process_box 
+.service_process_item 
+.service_process_step.step2{
+	background: url(img/payed.png) no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+
+.service_process_box 
+.service_process_item 
+.service_process_step.step3_phone{
+	background: url(img/service.png) no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+
+.service_process_box
+.service_process_item
+.service_process_step.step3_message{
+    background: url(img/message.png) no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+
+.service_process_box 
+.service_process_item 
+.service_process_step.step4{
+	background: url(img/finish.png) no-repeat;
+    background-size: 1.8rem 1.8rem;
+}
+
+.weui_tabbar::before{
+    border-top: 1px solid rgb(193, 193, 193);
+}
+.tabbar-item-price{
+    float: left;
+    width:50%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 2.33333333;
+    border-radius: 5px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.des_li{
+    line-height: 1.2rem;
+}

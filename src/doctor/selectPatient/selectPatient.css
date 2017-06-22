@@ -1,0 +1,40 @@
+.check_in{
+	position:absolute;
+	right:10px;
+	top:0px;
+	height:40px;
+	width:70px;
+	background-image:url(img/icon_yibaodao@2x.png);
+    background-size: cover;
+}
+.patient_info {
+	height: 68px;
+	padding: 15px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.patient_basic:after{
+	content: '';
+	clear: both;
+	display:block;
+	height:0;
+	visibility:hidden;
+}
+.patient_basic div{
+	float: left;
+	line-height: 15px;
+}
+.patient_sex{
+	width: 10px;
+	height: 10px;
+	background-size: cover;
+	margin-top: 2px;
+	margin-right: 5px;
+	
+}
+
+.female{
+	background-image:  url(img/female@2x.png);
+}
+.male{
+	background-image: url(img/male@2x.png);
+}

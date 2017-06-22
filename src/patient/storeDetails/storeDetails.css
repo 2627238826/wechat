@@ -1,0 +1,167 @@
+.store_storeFont12{
+    font-size: 12px;
+}
+.store_storeFont14{
+    font-size: 14px;
+}
+.store_storeFont16{
+    font-size: 16px;
+}
+.store_storeFont20{
+    font-size: 20px;
+}
+.store_mt5{
+    margin-top: 5px;
+}
+.store_mt0{
+    margin-top: 0px;
+}
+.store_mt2{
+    margin-top: 2px;
+}
+.store_mt10{
+    margin-top: 10px;
+}
+.store_mr2{
+    margin-right: 2px;
+}
+.store_mr10{
+    margin-right: 10px;
+}
+.store_mr20{
+    margin-right: 20px;
+}
+.store_ml5{
+    margin-left: 5px;
+}
+.store_ml20{
+    margin-left: 20px;
+}
+.store_ml35{
+    margin-left: 35px;
+}
+.store_mb15{
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.store_storeColorW{
+    color: #FFFFFF;
+}
+.store_storeColorB{
+    color: #333333;
+}
+.store_storeColorG{
+    color: #AAAAAA;
+}
+.store_storeColorO{
+    color: #EDB83A;
+}
+.store_storehead{
+    background-color: #36BFAD;
+}
+.store_storeCellB{
+    background-color: #ffffff;
+}
+.store_textNowrap{
+    text-overflow : ellipsis;
+    white-space : nowrap;
+    overflow : hidden;
+}
+.store_wordwrap{
+    word-wrap: break-word;
+    white-space: normal;
+    width: 100%;
+}
+.store_storeimg{
+    width:60px;
+    height:60px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    display: block;
+}
+.store_storeBt{
+    border-top: 1px solid #d9d9d9 !important;
+}
+/*.store_storeBt:before{*/
+    /*border-top: 1px solid #FFFFFF !important;*/
+/*}*/
+.store_w54{
+    max-width: 54%;
+}
+.store_w60{
+    max-width: 60%;
+}
+.store_w70{
+    max-width: 70%;
+}
+.store_w100{
+    max-width: 100%;
+}
+.store_floatl{
+    float: left;
+}
+.store_storename{
+    font-size: 16px;
+    color: white;
+}
+.top0{
+    position: absolute;
+    top: 10px;
+}
+.store_ybState{
+    /*border: 1px solid #ffffff;*/
+    color: #ffffff;
+    background-color: #FEC744;
+    font-size: 13px;
+    padding: 2px 2px;
+    border-radius: 2px;
+}
+.store_syState{
+    /*border: 1px solid #ffffff;*/
+    color: #ffffff;
+    background-color: #56C3F3;
+    font-size: 13px;
+    padding: 2px 2px;
+    border-radius: 2px;
+}
+.store_certState{
+    border: 1px solid #EDB83A;
+    color: #EDB83A;
+    font-size: 12px;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+.store_storeCaht{
+    background: url(img/chat.png) no-repeat;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+.store_storeLocaltion{
+    background: url(img/localtion.png) no-repeat;
+    background-size: 100% 100%;
+    width: 15px;
+    height: 15px;
+}
+.store_storePhone{
+    background: url(img/phone.png) no-repeat;
+    background-size: 100% 100%;
+    width: 15px;
+    height: 15px;
+}
+.store_storeTime{
+    background: url(img/time.png) no-repeat;
+    background-size: 100% 100%;
+    width: 15px;
+    height: 15px;
+}
+.store_storeFavorable{
+    background: url(img/favorable.png) no-repeat;
+    background-size: 100% 100%;
+    width: 25px;
+    height: 25px;
+}
+
